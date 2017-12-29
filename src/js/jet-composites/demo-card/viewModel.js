@@ -18,7 +18,7 @@ define(
               * @return {number}        The formatted phone number
               */
             var formatPhoneNumber = function (number) {
-                return number.replace(/(\d{3})(\d{3})(\d{4})/, '$1-$2-$3');
+                return Number(number).toString().replace(/(\d{3})(\d{3})(\d{4})/, '$1-$2-$3');
             }
 
             // The props field on context is a Promise. Once that resolves,
@@ -38,8 +38,9 @@ define(
               * @param  {MouseEvent} event The click event
               */
             self.flipCard = function (model, event) {
+                console.log('I was clicked');
                 if (event.type === 'click' || (event.type === 'keypress' && event.keyCode === 13)) {
-                    $(element.childNodes[0]).toggleClass('flipped');
+                    $(element.childNodes[0]).toggleClass('demo-card-flipped');
                 }
             };
         };
