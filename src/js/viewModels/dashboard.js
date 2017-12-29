@@ -27,6 +27,14 @@ define(['ojs/ojcore', 'knockout', 'jquery', 'jet-composites/demo-card/loader'],
             work: 6501232234,
             email: 'adam.fripp@oracle.com',
             backgroundImage: null
+        },
+        {
+            name: 'Andrew Bennett',
+            avatar: null,
+            title: 'Developer',
+            work: 6501232234,
+            email: 'andy.bennett@domain.com',
+            backgroundImage: 'http://www.gettyimages.ca/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg'
         }
     ];
 

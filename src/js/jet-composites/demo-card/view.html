@@ -1,6 +1,6 @@
 <div tabindex="0" role="group" class="demo-card-flip-container"
 data-bind="event: {click: flipCard, keypress: flipCard}, attr: {'aria-label': $props.name + ' Press Enter for more info.'}">
-<div class="demo-card-front-side">
+<div class="demo-card-front-side" data-bind="style: {'background-image': $data.backgroundImage ? backgroundImage : ''}">
   <!-- ko if: $props.avatar == null -->
     <div class="demo-card-avatar" data-bind="text: initials"></div>
   <!-- /ko -->

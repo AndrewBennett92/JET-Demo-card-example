@@ -29,8 +29,12 @@ define(
                     var initials = properties.name.match(/\b\w/g);
                     self.initials = (initials.shift() + initials.pop()).toUpperCase();
                 }
-                if (properties.workNumber)
+                if (properties.workNumber){
                     self.workFormatted = formatPhoneNumber(properties.workNumber);
+                }
+                if (properties.backgroundImage){
+                    self.backgroundImage = "url('"+ properties.backgroundImage + "')"
+                }
             });
 
             /**
