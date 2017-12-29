@@ -19,6 +19,14 @@ define(['ojs/ojcore', 'knockout', 'jquery', 'jet-composites/demo-card/loader'],
             work: 5171278899,
             email: 'deb.raphaely@oracle.com',
             backgroundImage: 'http://www.oracle.com/webfolder/technetwork/jet/images/composites/card-background_1.png'
+        },
+        {
+            name: 'Adam Fripp',
+            avatar: null,
+            title: 'IT Manager',
+            work: 6501232234,
+            email: 'adam.fripp@oracle.com',
+            backgroundImage: null
         }
     ];
 

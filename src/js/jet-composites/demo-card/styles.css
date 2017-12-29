@@ -86,3 +86,7 @@ demo-card .demo-card-avatar {
   border-radius: 50%;
   border: 3px solid #fff;
 }
+
+#composite-container demo-card .demo-card-front-side {
+  background-image: url('http://www.oracle.com/webfolder/technetwork/jet/images/composites/card-background_1.png');
+}

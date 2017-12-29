@@ -38,7 +38,6 @@ define(
               * @param  {MouseEvent} event The click event
               */
             self.flipCard = function (model, event) {
-                console.log('I was clicked');
                 if (event.type === 'click' || (event.type === 'keypress' && event.keyCode === 13)) {
                     $(element.childNodes[0]).toggleClass('demo-card-flipped');
                 }
